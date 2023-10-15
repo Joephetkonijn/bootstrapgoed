@@ -1,0 +1,54 @@
+body {
+	background-image: url("../img/bioscoop.png");
+	background-size: cover;
+}
+.card {
+	padding: 5px;
+	margin: 5px;
+}
+.card img {
+	height: 300px;
+}
+p {
+	color: white;
+}
+img {
+	width: 20rem;
+}
+footer {
+	text-align: center;
+}
+.carousel-inner {
+	width: 30rem;
+	max-height: 650px;
+}
+ul {
+	list-style-type: none;
+}
+video {
+	width: 40rem;
+}
+.rating {
+	display: flex;
+}
+.rating input {
+	display: none;
+}
+.rating label {
+	font: 30px;
+	color: slategray;
+	float: right;
+	transition: all 0.5s ease;
+}
+
+.rating input:not(:checked) ~ label:hover,
+.rating input:not(:checked) ~ label:hover ~ label {
+	color: #fd4;
+	cursor: pointer;
+}
+.rating input:checked ~ label {
+	color: #fd4;
+}
+.row {
+	padding: 10px;
+}

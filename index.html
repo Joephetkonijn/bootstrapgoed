@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Homepage" />
+		<meta name="keywords" content="HTML, CSS, JavaScript" />
+		<meta name="author" content="Joep Snels" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/mystyle.css" />
+
+		<title>Homepage of the best website ever</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="index.html">JoepieBoscoopie</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html"
+							>Home <span class="sr-only">(current)</span></a
+						>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Contact.html">Contact</a>
+					</li>
+				</ul>
+
+				<form class="form-inline my-2 my-lg-0">
+					<input
+						class="form-control mr-sm-2"
+						type="search"
+						placeholder="zoeken..."
+						aria-label="Search"
+						id="searchInput"
+						onkeyup="filterCards()"
+					/>
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+						Search
+					</button>
+				</form>
+			</div>
+		</nav>
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item active" aria-current="page">Home</li>
+			</ol>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div
+						id="carouselExampleSlidesOnly"
+						class="carousel slide"
+						data-ride="carousel"
+					>
+						<div class="d-flex justify-content-center">
+							<div class="carousel-inner d-flex justify-content-center">
+								<div class="carousel-item active">
+									<img
+										class="d-block w-100 img-fluid"
+										src="img/Cars.png"
+										alt="Cars"
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										class="d-block w-100 img-fluid"
+										src="img/Minions.png"
+										alt="Minions"
+									/>
+								</div>
+								<div class="carousel-item">
+									<img
+										class="d-block w-100 img-fluid"
+										src="img/Avatar.jpg"
+										alt="Avatar"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row" id="cardContainer">
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="card">
+						<img src="img/Cars.png" alt="Cars" class="card-img-top img-fluid" />
+						<div class="card-body">
+							<div class="card-title"><h3>Cars</h3></div>
+							<div class="card-text text-truncate">
+								De film speelt zich af in een wereld die geheel bevolkt wordt
+								door levende auto’s en andere voertuigen. Centraal staat de rode
+								racewagen Bliksem McQueen, die alleen lijkt te leven voor het
+								winnen van wedstrijden en het verkrijgen van roem. Bij aanvang
+								van de film neemt hij deel aan de laatste race van de Piston Cup
+								stock car race, waarin hij het onder andere opneemt tegen
+								veteraan Strip "The King" Weathers en Chick Hicks, een racer die
+								regelmatig valsspeelt door zijn tegenstanders van het circuit te
+								duwen. De race eindigt echter op een gelijke stand, waardoor er
+								nog een beslissende wedstrijd moet gereden worden. Deze vindt
+								plaats over een week in Los Angeles. Na de wedstrijd besluit hij
+								meteen hierheen te vertrekken. Hij geeft zijn chauffeur, de
+								trailer Mack, de opdracht de hele nacht door te rijden. Mack
+								wordt al snel moe en wordt bovendien speelbal van
+							</div>
+
+							<a href="Cars.html" class="btn btn-primary">Cars infopage</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="card">
+						<img
+							src="img/Minions.png"
+							alt="Minions"
+							class="card-img-top img-fluid"
+						/>
+						<div class="card-body">
+							<div class="card-title"><h3>Minions</h3></div>
+							<div class="card-text text-truncate">
+								De Minions zijn een ras van gele, humanoïde wezens, die al sinds
+								het begin der tijden bestaan en maar voor één doel leven:
+								kwaadaardige meesters dienen. In de loop der eeuwen werken ze
+								onder andere voor een Tyrannosaurus rex, een Neanderthaler, een
+								Egyptische farao, een middeleeuwse koning, een piraat, Dzjengis
+								Khan, Napoleon Bonaparte en graaf Dracula, maar door hun
+								onhandigheid zijn ze er steeds de oorzaak van dat hun meester
+								aan zijn einde komt. Uiteindelijk besluiten ze zich terug te
+								trekken op Antarctica, maar het gemis van een meester drijft hen
+								tot een zware depressie. In 1968 besluit de minion Kevin dat het
+								tijd is om een nieuwe start te maken. Samen met de rebelse
+								tiener-Minion Stuart en de jonge minion Bob trekt hij de wereld
+								in om een nieuwe meester voor zijn volk te zoeken. Na een lange
+								reis arriveert het drietal in New York, waar ze horen dat er een
+								bijeenkomst voor superschurken gaande is in Orlando, Florida. Ze
+								liften daarheen. Eenmaal op de bijeenkomst ontmoeten ze Scarlet
+								Overkill, de eerste vrouwelijke sup
+							</div>
+							<a href="Minions.html" class="btn btn-primary"
+								>Minions infopage</a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="card">
+						<img
+							src="img/Elemental.jpg"
+							alt="Elemental"
+							class="card-img-top img-fluid"
+						/>
+						<div class="card-body">
+							<div class="card-title"><h3>Elemental</h3></div>
+							<div class="card-text text-truncate">
+								Disney en Pixar’s nieuwe film “Elemental” speelt zich af in
+								Elementenstad, waar vuur-, water-, land- en luchtbewoners
+								samenleven. Als Ember, een pittige en pientere jonge vrouw,
+								vriendschap sluit met Wade, een geestige en gemoedelijke gast,
+								worden haar ideeën over de wereld die ze bewonen flink op de
+								proef gesteld. Geregisseerd door Peter Sohn (“The Good
+								Dinosaur,” “Partly Cloudy” short), geproduceerd door Denise Ream
+								(“The Good Dinosaur,” “Cars 2”).
+							</div>
+							<a href="#" class="btn btn-primary">Elemental infopage</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="card">
+						<img
+							src="img/Avatar.jpg"
+							alt="Avatar"
+							class="card-img-top img-fluid"
+						/>
+						<div class="card-body">
+							<div class="card-title"><h3>Avatar</h3></div>
+							<div class="card-text text-truncate">
+								Avatar: The Way of Water' speelt zich meer dan tien jaar na de
+								gebeurtenissen van de eerste film af. De film vertelt het
+								verhaal van de familie Sully (Jake, Neytiri en hun kinderen). We
+								zien de problemen die hen achtervolgen, de moeite die ze doen om
+								elkaar te beschermen, de gevechten die ze voeren om in leven te
+								blijven en de tragedies die ze doorstaan.
+							</div>
+							<a href="#" class="btn btn-primary">Avatar infopage</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="card">
+						<img
+							src="img/Titanic.jpg"
+							alt="Avatar"
+							class="card-img-top img-fluid"
+						/>
+						<div class="card-body">
+							<div class="card-title"><h3>Titanic</h3></div>
+							<div class="card-text text-truncate">
+								In 1996 is de expeditie van Brock Lovett op zoek naar 'The Heart
+								of the Ocean', een kostbare diamant die oorspronkelijk aan de
+								Franse koning Lodewijk XVI toebehoorde. Volgens de geruchten is
+								deze diamant 84 jaar eerder samen met de Titanic in zee
+								verdwenen. Met twee duikboten gaan ze naar het wrak dat op 3810
+								meter diepte ligt. Ze vinden een kluis en verwachten dat de
+								diamant daar nog steeds in ligt, maar in plaats daarvan vinden
+								ze een tekening van een naakte vrouw die een halsketting met
+								daaraan de diamant draagt. Wanneer CNN beelden van de tekening
+								toont, belt een hoogbejaarde vrouw genaamd Rose Calvert op. Ze
+								zegt dat zij de vrouw op de tekening is. De expeditieleden hopen
+								via Rose te weten te komen waar de diamant nu is.
+							</div>
+							<a href="#" class="btn btn-primary">Titanic infopage</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="card">
+						<img
+							src="img/Barbie.jpg"
+							alt="Avatar"
+							class="card-img-top img-fluid"
+						/>
+						<div class="card-body">
+							<div class="card-title"><h3>Barie</h3></div>
+							<div class="card-text text-truncate">
+								Het gaat over de stereotypische Barbie. Zij leeft in de voor
+								haar utopische wereld Barbieland, bevolkt door verschillende
+								versies van Barbie en Ken. Een wereld waarin alles perfect
+								lijkt. Ze heeft een relatie met Ken maar die is er alleen als ze
+								hem wil zien. Ken is alleen gelukkig als hij bij Barbie is. Hij
+								wil aandacht en een nauwere relatie maar Barbie heeft meer zin
+								in andere activiteiten en feesten met vrouwen onder elkaar. Op
+								een dag gaat het mis. Barbie wordt overvallen door angst voor de
+								dood en ze krijgt een slechte adem, cellulitis en platvoeten. Ze
+								komt in een existentiële crisis en vraagt raad bij Weird Barbie.
+								Zij adviseert haar om naar de echte wereld te reizen en het kind
+								te zoeken dat met haar speelt. Ken verstopt zich in B
+							</div>
+							<a href="#" class="btn btn-primary">Barbie infopage</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="card">
+						<img
+							src="img/derUntergang.jpg"
+							alt="Avatar"
+							class="card-img-top img-fluid"
+						/>
+						<div class="card-body">
+							<div class="card-title"><h3>Der Untergang</h3></div>
+							<div class="card-text text-truncate">
+								Vijf jonge vrouwen worden in november 1942 naar Wolfsschanze,
+								het hoofdkwartier van Adolf Hitler te Rastenburg, geëscorteerd
+								voor een sollicitatie naar de vacature van secretaresse van de
+								Führer. De 22-jarige Traudl Junge wordt geselecteerd en verricht
+								vanaf dan de secretariële activiteiten voor de leider van het
+								Derde Rijk. In 1945 rukken de geallieerden steeds verder op in
+								de strijd tegen Nazi-Duitsland. De Duitse troepen worden aan
+								alle fronten tot op eigen grond teruggedrongen e
+							</div>
+							<a href="#" class="btn btn-primary">Der Untergang infopage</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="card">
+						<img
+							src="img/mayadebij.jpg"
+							alt="Avatar"
+							class="card-img-top img-fluid"
+						/>
+						<div class="card-body">
+							<div class="card-title"><h3>Maya de bij</h3></div>
+							<div class="card-text text-truncate">
+								Maya, het vrolijke en nieuwsgierige bijtje dat heel erg gesteld
+								is op haar vrijheid, haar vriendje Willy en een hele hoop nieuwe
+								insectenvriendjes zetten alles op alles om de eer van hun
+								bijenkorf te verdedigen tijdens de jaarlijkse Honingspelen. Zal
+								team Maya deze spelen kunnen winnen? Zij moeten het in
+								verschillende proeven opnemen tegen het team van Violet, de
+								leider van Team Tropolis. Als ze de spelen verliezen, moet de
+								korf de volledige honingoogst van dat jaar afstaan aan de grote
+								keizerin van Zoemtropolis.
+							</div>
+							<a href="#" class="btn btn-primary">Maya de bij infopage</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="card">
+						<img
+							src="img/Bobdebouwer.jpg"
+							alt="Avatar"
+							class="card-img-top img-fluid"
+						/>
+						<div class="card-body">
+							<div class="card-title"><h3>Bob de bouwer</h3></div>
+							<div class="card-text text-truncate">
+								Bob de Bouwer en zijn team werken aan hun allergrootste klus
+								ooit. Ze kunnen wel wat extra hulp gebruiken en schakelen drie
+								Mega Machines in: Blinker, Smakker en Kraker. Avontuurlijke
+								kinderfilm over bouwen en samenwerken, gebaseerd op de zeer
+								succesvolle animatieserie.
+							</div>
+							<a href="#" class="btn btn-primary">Bob de bouwer infopage</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="card">
+						<img
+							src="img/frozen2.jpg"
+							alt="Avatar"
+							class="card-img-top img-fluid"
+						/>
+						<div class="card-body">
+							<div class="card-title"><h3>FrozenII</h3></div>
+							<div class="card-text text-truncate">
+								Koning Angarr van Arendelle vertelt zijn jonge dochters Anna en
+								Elsa over het betoverde woud dat in het noorden ligt. Het woud
+								is de thuis van de Northuldra-stam, een volk dat een dichte band
+								heeft met de natuur en haar magie. Angarrs vader koning Runeard
+								stelt een vredesverdrag op tussen de Northuldra en het volk van
+								Arendelle. Als geschenk bouwt hij een grote dam in het woud,
+								maar om onbekende reden breekt een gevecht uit tussen de twee
+								volkeren. Dit maakt de natuurelementen vuur, water, aarde en
+								wind zo kwaad dat er een grote muur van mist rond het woud
+								verschijnt, waar niemand nog doorheen kan. Daarna verdwijnen de
+								natuurelementen. Koning Runeard sterft tijdens het gevecht en de
+								jon
+							</div>
+							<a href="#" class="btn btn-primary">FrozenII infopage</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="card">
+						<img
+							src="img/smurfen.jpg"
+							alt="Avatar"
+							class="card-img-top img-fluid"
+						/>
+						<div class="card-body">
+							<div class="card-title"><h3>smurfen</h3></div>
+							<div class="card-text text-truncate">
+								Smurfin en haar vriendjes Brilsmurf, Klungel en Potige Smurf
+								wagen zich diep in het Verboden Bos om een mysterieus verloren
+								dorp te redden van de boze tovenaar Gargamel.
+							</div>
+							<a href="#" class="btn btn-primary">smurfen infopage</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="card">
+						<img
+							src="img/mario.jpg"
+							alt="Avatar"
+							class="card-img-top img-fluid"
+						/>
+						<div class="card-body">
+							<div class="card-title"><h3>Mario</h3></div>
+							<div class="card-text text-truncate">
+								Mario en Luigi zijn twee broers die een loodgietersbedrijf
+								runnen in Brooklyn, New York. De stad heeft te kampen met
+								overstromende riolen en de twee broers dalen af in het
+								riolenstelsel om het probleem te verhelpen. Als ze eenmaal diep
+								onder de grond zijn worden de broers in een groene rioolpijp
+								gezogen. Luigi belandt in de duistere wereld van de gemene
+								Koning Bowser, Mario in het Mushroom Kingdom van Princess Peach.
+								Mario, Peach en Toad slaan de handen ineen slaan om Luigi te re
+							</div>
+							<a href="#" class="btn btn-primary">Mario infopage</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<footer>
+						<div class="card-footer bg-dark">
+							<div class="card-block">
+								<div class="card-text">
+									<ul>
+										<li><p>© 2023 Joep Snels</p></li>
+										<li>
+											<a href="about.html">Over Ons</a>
+										</li>
+										<li>
+											<a href="Film_adder.html">Film toevoegen</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+		<script src="javascript/leukwerk.js"></script>
+	</body>
+</html>

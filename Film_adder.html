@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Film toevoegen" />
+		<meta name="keywords" content="HTML, CSS, JavaScript" />
+		<meta name="author" content="Joep Snels" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<title>Add Movie</title>
+		<!-- Link Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		/>
+		<link rel="stylesheet" href="css/mystyle.css" />
+	</head>
+	<body>
+		<nav
+			aria-label="breadcrumb"
+			class="navbar navbar-expand-lg navbar-light bg-light"
+		>
+			<a class="navbar-brand" href="index.html">JoepieBoscoopie</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html"
+							>Home <span class="sr-only">(current)</span></a
+						>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Contact.html">Contact</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input
+						class="form-control mr-sm-2"
+						type="search"
+						placeholder="Search"
+						aria-label="Search"
+					/>
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+						Search
+					</button>
+				</form>
+			</div>
+		</nav>
+		<nav>
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+				<li class="breadcrumb-item active" aria-current="page">
+					Film toevoegen
+				</li>
+			</ol>
+		</nav>
+		<div class="container">
+			<h2><p>Voeg een film toe</p></h2>
+			<form>
+				<div class="form-group">
+					<label for="exampleInputEmail1"><p>Email address</p></label>
+					<input
+						type="email"
+						class="form-control"
+						id="exampleInputEmail1"
+						aria-describedby="emailHelp"
+						placeholder="Enter email"
+					/>
+					<small id="emailHelp" class="form-text text-muted"
+						><p>We'll never share your email with anyone else.</p></small
+					>
+				</div>
+				<div class="form-group">
+					<label for="exampleInputPassword1"><p>Password</p></label>
+					<input
+						type="password"
+						class="form-control"
+						id="exampleInputPassword1"
+						placeholder="Password"
+					/>
+				</div>
+				<div class="form-group">
+					<label for="exampleFormControlSelect2"><p>Genre</p></label>
+					<select multiple class="form-control" id="exampleFormControlSelect2">
+						<option>Actie</option>
+						<option>Animatie</option>
+						<option>Fantasie</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="exampleFormControlFile1"><p>Film afbleelding</p></label>
+					<input
+						type="file"
+						class="form-control-file"
+						id="exampleFormControlFile1"
+					/>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<footer>
+						<div class="card-footer bg-dark">
+							<div class="card-block">
+								<div class="card-text">
+									<ul>
+										<li><p>© 2023 Joep Snels</p></li>
+										<li>
+											<a href="about.html">Over Ons</a>
+										</li>
+										<li>
+											<a href="Film_adder.html">Film toevoegen</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		<!-- Link Bootstrap JS and dependencies -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	</body>
+</html>

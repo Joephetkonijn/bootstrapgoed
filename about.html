@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Aboutpage van Joep Snels" />
+		<meta name="keywords" content="HTML, CSS, JavaScript" />
+		<meta name="author" content="Joep Snels" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>About</title>
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/mystyle.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="index.html">JoepieBoscoopie</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html"
+							>Home <span class="sr-only">(current)</span></a
+						>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Contact.html">Contact</a>
+					</li>
+				</ul>
+
+				<form class="form-inline my-2 my-lg-0">
+					<input
+						class="form-control mr-sm-2"
+						type="search"
+						placeholder="zoeken..."
+						aria-label="Search"
+						id="searchInput"
+						onkeyup="filterCards()"
+					/>
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+						Search
+					</button>
+				</form>
+			</div>
+		</nav>
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+				<li class="breadcrumb-item active" aria-current="page">About</li>
+			</ol>
+		</nav>
+		<div class="container-fluid">
+			<div class="Jumbotron text-center">
+				<h1><p>Over Mij</p></h1>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<p>
+						Ik ben Joep Snels. Ik ben 17 jaar oud en woon in Roosendaal met mijn
+						familie die bestaat uit: mijn vader, mijn moeder en mijn zusje.
+					</p>
+					<p>
+						Ik heb natuurlijk ook nog hobby's zoals: gamen, voetballen en met
+						mijn vriendin zijn. Ook heb ik nog werk. Ik werk bij een Indonesisch
+						restaurant Bali Baru in Roosendaal op de markt. Kom gezellig een
+						keer langs!
+					</p>
+					<p>
+						Ik ben de opleiding infomatica gaan doen vanwege dat ik het sinds
+						dat ik 10 jaar ben al heel intressant vond hoe een game en een
+						programma op mijn computer werkte en wilde dit zelf later ook gaan
+						doen. Ik wist dus al vanaf mijn 10de dat ik later een infomatica
+						studie wilde gaan doen en dit is sinds dien nog steeds niet
+						veranderd. Ik heb het heel erg naar mijn zin op Avans Hogeschool in
+						Breda en ben benieuwd wat de toekomst mij te brengen heeft.
+					</p>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<img src="img/goedejoep.png" alt="Joep" />
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<footer>
+						<div class="card-footer bg-dark">
+							<div class="card-block">
+								<div class="card-text">
+									<ul>
+										<li><p>© 2023 Joep Snels</p></li>
+										<li>
+											<a href="about.html">Over Ons</a>
+										</li>
+										<li>
+											<a href="Film_adder.html">Film toevoegen</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+			</div>
+		</div>
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+		<script src="javascript/leukwerk.js"></script>
+		<script src="javascript/index.js"></script>
+	</body>
+</html>
